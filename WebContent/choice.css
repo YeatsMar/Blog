@@ -1,0 +1,92 @@
+* {	
+	padding: 0;
+	margin: 0;
+	font-family: '微软雅黑', '宋体', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;
+}
+
+body{
+	background-image:url("pics/bg_login.jpg"); 
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+#wrapper {
+	margin: 0 auto 0 auto;
+	text-align:center;
+}
+
+h2 {
+	margin-top: 50px;
+}
+
+#list {	
+	
+	
+	height:240px;
+	width:630px;
+	/*margin:auto;*/
+	margin-top: 50px;
+	display: inline-block;
+}
+
+#own {
+	/*border:1px gray solid;
+	border-radius:4px;*/
+	text-align:center;
+	height:240px;
+	width:300px;
+	display: block;
+	background:rgba(255,255,255,0.5);
+	position:relative;
+	float:left;
+
+}
+
+h3 {
+	margin-top: 37%;
+	line-height: 15px;
+	word-spacing: 10px;
+}
+
+#nothing {
+	color:rgb(223, 232, 203);
+}
+
+#other {
+	/*border:1px gray solid;
+	border-radius:4px;*/
+	height:240px;
+	width:300px;
+	display: block;
+	background:rgba(255,255,255,0.5);
+	position:relative;
+	float:right;
+	vertical-align: middle;
+}
+
+#other a {
+	line-height: 25px;
+	vertical-align: middle;
+	margin-top: 20px;
+}
+
+#other a:first-child {
+	line-height: 25px;
+	vertical-align: middle;
+	padding-top: 25px;
+}
+
+a{
+	text-decoration:none;
+	color:rgb(124,173,69);
+}
+
+footer{
+	clear:both;
+	position:relative;
+	color: rgb(169,209,142);
+	margin-top:80px;
+	margin-bottom:35px;
+	text-align:center;
+	inline-height:1;
+}

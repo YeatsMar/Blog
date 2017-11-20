@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+* {	
+	padding: 0;
+	margin: 0;
+	font-family: '微软雅黑', '宋体', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;
+}
+
+body{
+	background-image:url("pics/bg_login.jpg"); 
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+#name {
+	padding-top:90px;
+}
+
+#name h1,h5 {
+	text-align: left;
+}
+
+#nav {
+	background:rgba(255,255,255,0.8);
+	border:1px gray solid;
+	border-radius:2px;
+	height:33px;
+	width:260px;
+	text-align:center;
+	margin: 27px;
+	margin-left:0;
+}
+
+#nav a{
+	position:relative;
+	top:5px;
+	border-left:1px gray dashed;
+	padding:5px;
+}
+
+#nav a:first-child{
+	border-left:hidden;
+	font-weight:bold;/*for this is main page*/
+}
+
+#nav a:hover{
+	background:rgb(169,209,142);
+	color:rgb(255,254,226);
+	font-size:105%;
+}
+
+#nav a:active{
+	font-size:103%;
+}
+
+.top {
+	text-align: center;
+	font-size:12px;
+	color: grey;
+}
+
+#top_column {
+	background:rgba(255,255,255,0.8);
+	width: 510px;
+	height: 90px;
+	margin: 0 auto 0 auto;
+}
+
+#search_column {
+	padding-top: 17px;
+	margin-top:30px;
+}
+
+.mode {
+	margin: 5px;
+}
+
+#search_bar {
+	width:115px;
+	height:20px;
+	margin-bottom: 15px;
+}
+
+#search_btn {
+	height:24px;
+	width:68px;
+	color:rgb(124,173,69);
+	margin-bottom: 15px;
+}
+
+#search_btn:hover{color:green;}
+#search_btn:active{color:blue;}
+
+#sort_btn {
+	height:24px;
+	width:68px;
+	color:rgb(124,173,69);
+	margin-bottom: 15px;
+}
+
+#sort_btn:hover{color:green;}
+#sort_btn:active{color:blue;}
+
+#none {
+	margin: 0 auto 0 auto;
+	margin-top: 30px;
+	text-align: center;
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.time {
+	color:gray;
+	font-size:12px;
+}
+
+.label,.classify{color:green;}
+
+a{
+	text-decoration:none;
+	color:rgb(124,173,69);
+}
+
+.help{
+	border-right:1px gray dashed;
+	padding-right:10px;
+}
+
+/*show current status*/
+.self{font-weight:bold;}
+
+#content{
+	width:950px;
+	margin:auto;
+}
+
+h4 {
+	text-align:left;
+}
+
+#article {	
+	text-align:left;
+	background:rgba(255,255,255,0.8);
+	border:1px gray solid;
+	padding:15px;
+	/*width:730px;*/
+	margin:0 auto 0 auto;	
+	position:relative;
+	right:0;
+	top:0;
+	margin-top: 50px;
+}
+
+#article h4{margin:-10px;}
+
+#article h2{
+	font-size:27pt;
+	color: rgb(169,209,142);
+	margin-top:35px;
+}
+
+.mark{
+	margin-top:25px;
+}
+
+.passage{
+	margin-top:35px;
+	font-size:15px;
+	line-height:2;
+	white-space:pre-wrap;
+}
+
+
+
+
+footer{
+	clear:both;
+	position:relative;
+	color: rgb(169,209,142);
+	margin-top:80px;
+	margin-bottom:35px;
+	text-align:center;
+	inline-height:1;
+}

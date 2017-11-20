@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!– saved from url=(0014)about:internet -->
+<!--to keep the IE explorer from preventing JS running-->
+<meta name="Generator" content="EditPlus®">
+<meta name="Author" content="">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<title>Register</title>
+<link href="register.css" rel="stylesheet" type="text/css" />
+<script src="register.js"></script>
+</head>
+<body>
+	<div id="content">
+		<div id="logo">
+			<p>
+				<img src="pics/logo.png" width="208" height="100"></img>
+			</p>
+		</div>
+		<form id="register" method="POST" action="Register"
+				onsubmit="return validateForm()">
+			<p>请填写您的信息</p>
+			<div>
+				账号：<input type="text" size=20 value="" placeholder="请输入您的账号"
+					id="account" name="account" onchange="validate()" autofocus /><span
+					class="warnning" id="warn0"></span><br />
+				<!--size-->
+				姓名：<input type="text" size=20 value="" placeholder="请为您的账号取名"
+					id="username" name="username" onchange="validate()" /><span
+					class="warnning" id="warn1"></span><br /> 
+				密码：<input type="password" size=20 value="" id="password" name="password"
+					placeholder="请输入密码" onchange="validate()" /><span class="warnning"
+					id="warn2"></span><br />
+				<!--password cannot be shown-->
+				确认密码：<input type="password" size=20 value="" id="passwordRepeat" name="passwordRepeat"
+					placeholder="请重复输入密码" onchange="validate()" /><span
+					class="warnning" id="warn3"></span><br />
+				<!--password to be repeated to make sure-->
+				<p id="more">更多信息可以登录后在个人资料中编辑^_^</p>
+				<div>
+					<input type="radio" name="gender" value="female" checked />女 <input
+						type="radio" name="gender" value="male" />男
+				</div>
+				<div id="btn">
+					<input id="btn1" type="submit" value="提交" /> <a href="login.html"><input
+						id="btn2" type="button" value="返回" /></a>
+				</div>
+			</div>
+		</form>
+	</div>
+	<footer>
+		<p>Copyright &copy; 2015- 14FudanSS, All Rights Reserved</p>
+		<p>复旦软工 版权所有</p>
+	</footer>
+</body>
+</html>

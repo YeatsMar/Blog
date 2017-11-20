@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+* {	
+	padding: 0;
+	margin: 5px;
+	font-family:'微软雅黑', '宋体', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;
+}
+
+body{
+	background-image:url("pics/bg_login.jpg"); 
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+#edit {
+	background:rgba(255,255,255,0.8);
+	width: 760px;
+	height: 580px;
+	margin: 0 auto 0 auto;
+	text-align:left;
+	font-size:80%;
+	border:1px gray solid;
+}
+
+#title_tag {
+	text-align:left;
+}
+
+#passage_title input {
+	text-align:left;
+	width:740px;
+	opacity:0.8;
+}
+
+
+
+textarea {
+	text-align:left;
+	width:740px;
+	height:320px;
+	opacity:0.8;
+}
+
+#btn {
+	text-align:center;
+}
+
+#btn input {
+	width:80px;
+	height:40px;
+	font-size:120%;
+}
+
+#btn input:hover{color:red;}
+#btn input:active{color:orange;}
+
+.helper{
+	font-size:14px;
+}
+
+h4{font-size:14px;}
+
+a{
+	text-decoration:none;
+	color:rgb(124,173,69);
+}
+
+
+footer{
+	clear:both;
+	position:relative;
+	color: rgb(169,209,142);
+	margin-top:80px;
+	margin-bottom:35px;
+	text-align:center;
+	inline-height:1;
+}

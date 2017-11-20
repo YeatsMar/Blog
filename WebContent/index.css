@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+* {	
+	padding: 0;
+	margin: 0;
+	font-family: 'Î¢ÈíÑÅºÚ', 'ËÎÌå', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;
+}
+
+body{
+	background-image:url("pics/bg_login.jpg"); 
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+#name {
+	padding-top:90px;
+}
+
+#nav {
+	background:rgba(255,255,255,0.8);
+	border:1px gray solid;
+	border-radius:2px;
+	height:33px;
+	width:260px;
+	text-align:center;
+	margin: 27px;
+	margin-left:0;
+}
+
+#nav a{
+	position:relative;
+	top:5px;
+	border-left:1px gray dashed;
+	padding:5px;
+}
+
+#nav a:first-child{
+	border-left:hidden;
+	font-weight:bold;/*for this is main page*/
+}
+
+#nav a:hover{
+	background:rgb(169,209,142);
+	color:rgb(255,254,226);
+	font-size:105%;
+}
+
+#nav a:active{
+	font-size:103%;
+}
+
+.time {
+	color:gray;
+	font-size:12px;
+}
+
+.label,.classify{color:green;}
+
+a{
+	text-decoration:none;
+	color:rgb(124,173,69);
+}
+
+.help{
+	border-right:1px gray dashed;
+	padding-right:10px;
+}
+
+/*show current status*/
+.self{font-weight:bold;}
+
+#content{
+	width:950px;
+	margin:auto;
+}
+
+#left{	
+	width:215px;	
+	position:relative;
+	float:left;
+}
+
+#info {
+	padding:5px;	
+	background:rgba(255,255,255,0.8);
+	border:1px gray solid;
+	text-align:center;
+	margin-bottom:15px;
+}
+
+#info img{
+	padding:5px;
+}
+
+#article_nav{
+	background:rgba(255,255,255,0.8);
+	border:1px gray solid;
+	padding:5px;
+}
+
+#article_nav h4{
+	margin-bottom:20px;
+}
+
+#article_nav ul{
+	font-size:15px;
+	list-style-type:square;
+	list-style:inside;
+}
+
+#article_nav ul li{
+	margin:3px;
+}
+
+h4 {
+	text-align:left;
+}
+
+#article {	
+	text-align:left;
+	background:rgba(255,255,255,0.8);
+	border:1px gray solid;
+	padding:15px;
+	width:730px;
+	margin-left:230px;	
+	position:relative;
+	right:0;
+	top:0;
+}
+
+#article h4{margin:-10px;}
+
+#article h2{
+	font-size:27pt;
+	color: rgb(169,209,142);
+	margin-top:35px;
+}
+
+.mark{
+	margin-top:25px;
+}
+
+.passage{
+	margin-top:35px;
+	font-size:15px;
+	line-height:2;
+	white-space:pre-wrap;
+}
+
+#article nav{
+	margin-top:70px;
+	margin-bottom:30px;
+}
+
+.see{float:right;}
+
+#article>div{
+	border-top:1px gray dotted;
+}
+
+#article1{
+	border-top:hidden !important;
+}
+
+footer{
+	clear:both;
+	position:relative;
+	color: rgb(169,209,142);
+	margin-top:80px;
+	margin-bottom:35px;
+	text-align:center;
+	inline-height:1;
+}
